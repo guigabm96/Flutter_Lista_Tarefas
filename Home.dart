@@ -37,7 +37,7 @@ class _HomeState extends State<Home> {
                     },
                   ),
                   actions: <Widget>[
-                    FlatButton(onPressed: () => Navigator.pop(context),
+                    FlatButton(onPressed: () => Navigator.pop(context), // fecha o alertDialog
                         child: Text("Cancelar")
                     ),
                     FlatButton(onPressed: (){
